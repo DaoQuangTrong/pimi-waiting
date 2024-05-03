@@ -25,7 +25,7 @@
 	<meta name="generator" content="comingsoonpage.com 1.0.0" />
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/favicon.ico">
+	<!-- <link rel="shortcut icon" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/favicon.ico"> -->
 	<meta property="og:url" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="My Coming Soon Page" />
@@ -36,10 +36,10 @@
 
 	<!-- Bootstrap and default Style -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
+	<!-- <link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css"> -->
 
 	<!-- Google Fonts -->
-	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
+	<!-- <link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'> -->
 			
 	<!-- Animate CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
@@ -286,9 +286,23 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	
 	<!-- Google Analytics Code Goes Here-->
+	<style>
+		.contai{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 30vh;
+		}
+		/* .flex_row{
+			display: flex !important;
+			justify-content: center !important;
+			align-items: center !important;
+			flex-direction: row !important;
+		} */
+	</style>
 </head>
 <body>
-	<div id="cspio-page">
+	<div class="contai">
 		<div id="cspio-content">
 			
 			<!-- <img id="cspio-logo" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/seedprod-logo-white.png"> -->
@@ -299,9 +313,9 @@
 			
 			<form id="cspio-form" action="" method="post">
 				<div id="cspio-field-wrapper">
-					<div class="row">
+					<div class="flex_row">
 						<div class="col-md-12 seperate"><div class="input-group"><input id="cspio-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Email" required/>
-					<span class="input-group-btn"><button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Notify Me</button></span></div></div>
+						<span class="input-group-btn"><button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Notify Me</button></span></div></div>
 					</div>
 				</div>
 			</form>
